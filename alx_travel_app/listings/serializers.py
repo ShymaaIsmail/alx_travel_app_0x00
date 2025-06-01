@@ -8,6 +8,7 @@ class ListingSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class BookingSerializer(serializers.ModelSerializer):
+    """Serializer for Booking model."""
     class Meta:
         model = Booking
         fields = '__all__'
